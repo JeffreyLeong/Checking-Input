@@ -9,7 +9,13 @@ void get_int(int& number);
 
 int main()
 {
+    using namespace std;
+    int n;
 
+    get_int(n);
+    cout << "Final value read in = "<< n << endl
+         << "End of demostration.\n";
+    return 0;
 }
 
 void new_line()
